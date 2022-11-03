@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scale=yes">
+    <title>云南古城</title>
+    <link rel="icon" type="image/x-icon" href="./图标/宝塔_pagoda.png">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{background-image: url("./图片素材/背景链接.png");}
+        #wapper{       /*大背景框架*/
+            width: 1000px;
+            height: 100%;
+            background-color: rgb(247, 169, 101,0.6);
+            margin: 0 auto;
+        }
+        
+        .top{
+            width: 1000px;
+            height: 220px;
+            
+            margin: 0;
+        }
+        .banner{                  /*最上面的图片*/
+            width: 100%;
+            height: 220px;
+        }
+        .mid{
+            width: 100%;
+            height: 592px;
+            
+        }
+        .mid_left{
+            width: 233px;
+            height: 100%;
+            background-color: rgb(255, 255, 255,0.6);
+            float: left;
+        }
+        .mid_left ul{
+            list-style-type: none;      /*不要小圆点*/
+            padding-top: 40px;      /*边上的距离*/
+            padding-left: 40px;     /*与大背景左边的距离*/
+        }
+        .mid_left ul li{
+            font-size: 30px;
+            font-weight: bold;     /*粗体*/
+            border: 1px dashed saddlebrown;   /*dashed是线型*/
+            width: 158px;
+            height: 40px;
+            margin-bottom: 40px;    /*边框与边框的距离*/
+        }
+        .mid_left ul li a:hover{color: rgb(99, 27, 167);}
+        .mid_left ul li a{
+            text-decoration: none;      /*下划线消失*/
+            color: saddlebrown;
+            text-align: center;       /*文字居中 行内元素*/
+            display: block;    /*块级元素*/
+        }
+        .mid_right{             /*高度是大背景框架减去mid——left宽度*/
+            width: 700px;
+            height: 100%;
+            float: left;
+            padding: 10px;         /*边框与边框的距离*/
+        }
+        .li{
+            width: 350px;
+            height: 250px;
+            border: 2px solid white;    /*solid粗体边框*/
+            float: left;            /*让上下排变成左右*/
+            margin: 10px;    /*图片的外边距*/
+        }
+        .foot{           /*最底部的小行*/
+            width: 100%;
+            height: 53px;
+            background-color:rgb(19, 79, 151,0.6);
+        }
+        p{
+            text-indent: 2em;
+            font-size: 25px;
+        }
+        h3{
+            text-align:center;
+            
+            color: white;
+        }
+    </style>
+</head>
+<body> 
+    <div id="wapper">
+        <div class="top">
+             <img class="banner" src="top古城.jpg" alt="丢失">    <!--宽度看wapper 高度看top-->
+        </div>   <!--上面的-->
+        <div class="mid">
+        <div class="mid_left">
+            <ul>
+                <li><a href="云南风光超链接（雪山）.html">洁白雪山</a></li>
+                <li><a href="云南风光超链接（海水）.html">湛蓝海湖</a></li>
+                <li><a href="#">古色古香</a></li>
+            </ul>
+        </div>
+            <div class="mid_right">   <!--中间的-->
+                <h1>古色古香</h1>
+               <img class="li" src="大研古城.jpg" alt="丢失">
+               <p>丽江古城位于云南省丽江市古城区，又名大研镇，坐落在丽江坝中部，始建于宋末元初（公元13世纪后期），地处云贵高原，面积为7.279平方公里。</p>
+               <p>丽江古城内的街道依山傍水修建，以红色角砾岩铺就，丽江为第二批被批准的中国历史文化名城之一，是中国以整座古城申报世界文化遗产获得成功的两座古城之一。丽江古城体现了中国古代城市建设的成就，是中国民居中具有鲜明特色和风格的类型之一。</p>
+               <br>
+               <hr>
+               <br>
+               <a href="tongtong.html">返回主页</a>
+            </div> 
+               
+        </div>
+        <div class="foot">
+            &nbsp;&nbsp;<h3>电子旅游组</h3>
+        </div>    <!--下面的-->
+    </div>
+</body>
+</html>

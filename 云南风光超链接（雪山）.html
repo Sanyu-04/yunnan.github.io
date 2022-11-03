@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scale=yes">
+    <title>雪山</title>
+    <link rel="icon" type="image/x-icon" href="./图标/落日.png">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{background-image: url("./图片素材/背景链接.png");}
+        #wapper{       /*大背景框架*/
+            width: 1000px;
+            height: 100%;
+            background-color: rgb(247, 169, 101,0.6);
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .top{
+            width: 1000px;
+            height: 220px;
+            
+            margin: 0;
+        }
+        .banner{                  /*最上面的图片*/
+            width: 100%;
+            height: 220px;
+        }
+        .mid{
+            width: 100%;
+            height: 592px;
+            
+        }
+        .mid_left{
+            width: 233px;
+            height: 100%;
+            background-color: rgb(255, 255, 255,0.6);
+            float: left;
+        }
+        .mid_left ul{
+            list-style-type: none;      /*不要小圆点*/
+            padding-top: 40px;      /*边上的距离*/
+            padding-left: 40px;     /*与大背景左边的距离*/
+        }
+        .mid_left ul li{
+            font-size: 30px;
+            font-weight: bold;     /*粗体*/
+            border: 1px dashed saddlebrown;   /*dashed是线型*/
+            width: 158px;
+            height: 40px;
+            margin-bottom: 40px;    /*边框与边框的距离*/
+        }
+        .mid_left ul li a:hover{color: rgb(99, 27, 167);}
+        .mid_left ul li a{
+            text-decoration: none;      /*下划线消失*/
+            color: saddlebrown;
+            text-align: center;       /*文字居中 行内元素*/
+            display: block;    /*块级元素*/
+        }
+        .mid_right{             /*高度是大背景框架减去mid——left宽度*/
+            width: 700px;
+            height: 100%;
+            float: left;
+            padding: 10px;         /*边框与边框的距离*/
+        }
+        .li{
+            width: 350px;
+            height: 250px;
+            border: 2px solid white;    /*solid粗体边框*/
+            float: left;            /*让上下排变成左右*/
+            margin: 10px;    /*图片的外边距*/
+        }
+        .foot{           /*最底部的小行*/
+            width: 100%;
+            height: 53px;
+            background-color:rgb(19, 79, 151,0.6);
+        }
+        p{
+            text-indent: 2em;
+            font-size: 25px;
+        }
+        h3{
+            text-align:center;
+            
+            color: white;
+        }
+        
+    </style>
+</head>
+<body> 
+    <div id="wapper">
+        <div class="top">
+             <img class="banner" src="top雪山.jpg" alt="丢失">    <!--宽度看wapper 高度看top-->
+        </div>   <!--上面的-->
+        <div class="mid">
+        <div class="mid_left">
+            <ul>
+                <li><a href="#">洁白雪山</a></li>
+                <li><a href="云南风光超链接（海水）.html">湛蓝海湖</a></li>
+                <li><a href="云南风光超链接（古城）.html">古色古香</a></li>
+            </ul>
+        </div>
+            <div class="mid_right">   <!--中间的-->
+                <h1>洁白雪山</h1>
+               <img class="li" src="梅里雪山.jpg" alt="丢失">
+               <p>玉龙雪山在纳西语中被称为“欧鲁”，意为银色的山岩。其银装素裹，十三座雪峰连绵不绝，宛若一条“巨龙”腾越飞舞，故称为“玉龙”。</p>
+               <p>丽江市玉龙雪山景区，是北半球最南的大雪山。位于玉龙纳西族自治县境内，是国家旅游局正式批准的5A级国家风景名胜区。南北长35公里，东西宽13公里，面积960平方公里，主峰扇子陡海拔5596米，高山雪域风景位于海拔4000米以上，拥有险、奇、美、秀的景色。</p>
+               <br>
+               <hr>
+               <br>
+               <a class="fanhui" href="tongtong.html">返回主页</a> 
+            </div>  
+             
+        </div>
+        <div class="foot">
+            &nbsp;&nbsp;<h3>电子旅游组</h3>
+        </div>    <!--下面的-->
+    </div>
+</body>
+</html>

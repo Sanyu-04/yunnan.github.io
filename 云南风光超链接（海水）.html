@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scale=yes">
+    <link rel="icon" type="image/x-icon" href="./图标/海滩雨伞_beach-umbrella.png">
+    <title>云南的海</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{background-image: url("./图片素材/背景链接.png");}
+        #wapper{       /*大背景框架*/
+            width: 1000px;
+            height: 100%;
+            background-color: rgb(247, 169, 101,0.6);
+            margin: 0 auto;
+        }
+        
+        .top{
+            width: 1000px;
+            height: 220px;
+            
+            margin: 0;
+        }
+        .banner{                  /*最上面的图片*/
+            width: 100%;
+            height: 220px;
+        }
+        .mid{
+            width: 100%;
+            height: 592px;
+            
+        }
+        .mid_left{
+            width: 233px;
+            height: 100%;
+            background-color: rgb(255, 255, 255,0.6);
+            float: left;
+        }
+        .mid_left ul{
+            list-style-type: none;      /*不要小圆点*/
+            padding-top: 40px;      /*边上的距离*/
+            padding-left: 40px;     /*与大背景左边的距离*/
+        }
+        .mid_left ul li{
+            font-size: 30px;
+            font-weight: bold;     /*粗体*/
+            border: 1px dashed saddlebrown;   /*dashed是线型*/
+            width: 158px;
+            height: 40px;
+            margin-bottom: 40px;    /*边框与边框的距离*/
+        }
+        .mid_left ul li a:hover{color: rgb(99, 27, 167);}
+        .mid_left ul li a{
+            text-decoration: none;      /*下划线消失*/
+            color: saddlebrown;
+            text-align: center;       /*文字居中 行内元素*/
+            display: block;    /*块级元素*/
+        }
+        .mid_right{             /*高度是大背景框架减去mid——left宽度*/
+            width: 700px;
+            height: 100%;
+            float: left;
+            padding: 10px;         /*边框与边框的距离*/
+        }
+        .li{
+            width: 350px;
+            height: 250px;
+            border: 2px solid white;    /*solid粗体边框*/
+            float: left;            /*让上下排变成左右*/
+            margin: 10px;    /*图片的外边距*/
+        }
+        .foot{           /*最底部的小行*/
+            width: 100%;
+            height: 53px;
+            background-color:rgb(19, 79, 151,0.6);
+        }
+        p{
+            text-indent: 2em;
+            font-size: 25px;
+        }
+        h3{
+            text-align:center;
+            
+            color: white;
+        }
+    </style>
+</head>
+<body> 
+    <div id="wapper">
+        <div class="top">
+             <img class="banner" src="top洱海.jpg" alt="丢失">    <!--宽度看wapper 高度看top-->
+        </div>   <!--上面的-->
+        <div class="mid">
+        <div class="mid_left">
+            <ul>
+                <li><a href="云南风光超链接（雪山）.html">洁白雪山</a></li>
+                <li><a href="#">湛蓝海湖</a></li>
+                <li><a href="云南风光超链接（古城）.html">古色古香</a></li>
+            </ul>
+        </div>
+            <div class="mid_right">   <!--中间的-->
+                <h1>湛蓝海湖</h1>
+               <img class="li" src="洱海1.jpg" alt="丢失">
+               <p>云南九大高原湖泊指滇池、洱海、抚仙湖、程海、泸沽湖、杞麓湖、异龙湖、星云湖、阳宗海。</p>
+               <p>而洱海也是这高原湖泊中最受欢迎之一，古称昆明池、洱河、叶榆泽等。位于云南省大理白族自治州大理市。一般湖水面积约246平方千米（一说251平方公里），蓄水量约29.5亿立方米，呈狭长形，北起洱源县南端，南止大理市下关，南北长40公里，是仅次于滇池的云南第二大湖，中国淡水湖中居第7位。洱海形成于冰河时代末期，其成因主要是沉降侵蚀，属高原构造断陷湖泊，海拔1972米。</p>
+               <br>
+               <hr>
+               <br>
+               <a href="tongtong.html">返回主页</a>
+            </div> 
+               
+        </div>
+        <div class="foot">
+            &nbsp;&nbsp;<h3>电子旅游组</h3>
+        </div>    <!--下面的-->
+    </div>
+</body>
+</html>
